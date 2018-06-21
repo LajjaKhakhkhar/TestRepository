@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="branch_user" xml:space="preserve">
+    <value>Location user?</value>
+    <comment>branch user?</comment>
+  </data>
+  <data name="btn_cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="btn_save" xml:space="preserve">
+    <value>Save</value>
+    <comment>Save</comment>
+  </data>
+  <data name="confirm_password" xml:space="preserve">
+    <value>Confirm Password</value>
+    <comment>Confirm Password</comment>
+  </data>
+  <data name="First_Name" xml:space="preserve">
+    <value>First Name</value>
+    <comment>First Name</comment>
+  </data>
+  <data name="Last_Name" xml:space="preserve">
+    <value>Last Name</value>
+    <comment>Last Name</comment>
+  </data>
+  <data name="lblwelcome" xml:space="preserve">
+    <value>Welcome</value>
+    <comment>Welcome</comment>
+  </data>
+  <data name="lbl_branch" xml:space="preserve">
+    <value>Location</value>
+    <comment>Branch</comment>
+  </data>
+  <data name="lbl_email" xml:space="preserve">
+    <value>Email(Your email id will be your user name.)</value>
+    <comment>Email(Your email id will be your user name.)</comment>
+  </data>
+  <data name="lbl_edit_user_uetails" xml:space="preserve">
+    <value>Edit User</value>
+    <comment>Edit User</comment>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+    <comment>Password</comment>
+  </data>
+  <data name="profile_picture" xml:space="preserve">
+    <value>Profile Picture</value>
+    <comment>Profile Picture</comment>
+  </data>
+  <data name="txt_email" xml:space="preserve">
+    <value>Email Address</value>
+    <comment>Email Address</comment>
+  </data>
+  <data name="men_add_agency" xml:space="preserve">
+    <value>Add Agency</value>
+    <comment>Add Agency</comment>
+  </data>
+  <data name="men_add_company" xml:space="preserve">
+    <value>Add Company</value>
+    <comment>Add Company</comment>
+  </data>
+  <data name="men_beacon" xml:space="preserve">
+    <value>Beacon</value>
+    <comment>Beacon</comment>
+  </data>
+  <data name="men_branding" xml:space="preserve">
+    <value>Branding</value>
+    <comment>Branding</comment>
+  </data>
+  <data name="men_campaign" xml:space="preserve">
+    <value>Campaign</value>
+    <comment>Campaign</comment>
+  </data>
+  <data name="men_dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="men_geofencing" xml:space="preserve">
+    <value>Geofencing</value>
+    <comment>Geofencing</comment>
+  </data>
+  <data name="men_store_map" xml:space="preserve">
+    <value>Location Map</value>
+    <comment>Store Map</comment>
+  </data>
+  <data name="men_user" xml:space="preserve">
+    <value>User</value>
+    <comment>User</comment>
+  </data>
+  <data name="lbl_add_new_campaigns" xml:space="preserve">
+    <value>Add New Campaigns</value>
+    <comment>Add New Campaigns</comment>
+  </data>
+  <data name="lbl_add_new_user" xml:space="preserve">
+    <value>Add New User</value>
+    <comment>Add New User</comment>
+  </data>
+  <data name="lbl_campaigns" xml:space="preserve">
+    <value>Campaigns</value>
+    <comment>Campaigns</comment>
+  </data>
+  <data name="lbl_display" xml:space="preserve">
+    <value>Display</value>
+    <comment>Display</comment>
+  </data>
+  <data name="lbl_logout" xml:space="preserve">
+    <value>Logout</value>
+    <comment>Logout</comment>
+  </data>
+  <data name="lbl_my_account" xml:space="preserve">
+    <value>My Account</value>
+    <comment>My Account</comment>
+  </data>
+  <data name="lbl_address1" xml:space="preserve">
+    <value>Address1</value>
+    <comment>Address1</comment>
+  </data>
+  <data name="lbl_address2" xml:space="preserve">
+    <value>Address2</value>
+    <comment>Address2</comment>
+  </data>
+  <data name="lbl_add_new_branch" xml:space="preserve">
+    <value>Add New Location</value>
+    <comment>Add New Branch</comment>
+  </data>
+  <data name="lbl_branch_name" xml:space="preserve">
+    <value>Location Name</value>
+    <comment>Branch Name</comment>
+  </data>
+  <data name="lbl_branding" xml:space="preserve">
+    <value>Branding</value>
+    <comment>Branding</comment>
+  </data>
+  <data name="lbl_city" xml:space="preserve">
+    <value>City</value>
+    <comment>City</comment>
+  </data>
+  <data name="lbl_click_here" xml:space="preserve">
+    <value>click here</value>
+    <comment>click here</comment>
+  </data>
+  <data name="lbl_company_logo" xml:space="preserve">
+    <value>Company Logo</value>
+    <comment>Company Logo</comment>
+  </data>
+  <data name="lbl_country" xml:space="preserve">
+    <value>Country</value>
+    <comment>Country</comment>
+  </data>
+  <data name="lbl_create_beacon" xml:space="preserve">
+    <value>Create Beacon</value>
+    <comment>Create Beacon</comment>
+  </data>
+  <data name="lbl_display_name" xml:space="preserve">
+    <value>Display Name</value>
+    <comment>Display Name</comment>
+  </data>
+  <data name="lbl_enter_your_address" xml:space="preserve">
+    <value>Enter your address</value>
+    <comment>Enter your address.</comment>
+  </data>
+  <data name="lbl_language" xml:space="preserve">
+    <value>Language</value>
+    <comment>Language</comment>
+  </data>
+  <data name="lbl_major_color" xml:space="preserve">
+    <value>Major Color</value>
+    <comment>Major Color</comment>
+  </data>
+  <data name="lbl_minor_color" xml:space="preserve">
+    <value>Minor Color</value>
+    <comment>Minor Color</comment>
+  </data>
+  <data name="lbl_my_profile" xml:space="preserve">
+    <value>My Profile</value>
+    <comment>My Profile</comment>
+  </data>
+  <data name="lbl_not_your_address" xml:space="preserve">
+    <value>Not Your Address?</value>
+    <comment>Not Your Address?</comment>
+  </data>
+  <data name="lbl_state" xml:space="preserve">
+    <value>State</value>
+    <comment>State</comment>
+  </data>
+  <data name="lbl_zipCode" xml:space="preserve">
+    <value>ZipCode</value>
+    <comment>ZipCode</comment>
+  </data>
+  <data name="btn_add_store_map" xml:space="preserve">
+    <value>Add Location Map</value>
+    <comment>Add Store Map</comment>
+  </data>
+  <data name="lbl_floor_plan" xml:space="preserve">
+    <value>Floor Plan</value>
+    <comment>Floor Plan</comment>
+  </data>
+  <data name="lbl_left_margin" xml:space="preserve">
+    <value>LeftMargin</value>
+    <comment>LeftMargin</comment>
+  </data>
+  <data name="lbl_length" xml:space="preserve">
+    <value>Length</value>
+    <comment>Length</comment>
+  </data>
+  <data name="lbl_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Name</comment>
+  </data>
+  <data name="lbl_top_margin" xml:space="preserve">
+    <value>TopMargin</value>
+    <comment>TopMargin</comment>
+  </data>
+  <data name="lbl_width" xml:space="preserve">
+    <value>Width</value>
+    <comment>Width</comment>
+  </data>
+  <data name="btn_add_beacon" xml:space="preserve">
+    <value>Add Beacon</value>
+    <comment>Add Beacon</comment>
+  </data>
+  <data name="btn_add_geofencing" xml:space="preserve">
+    <value>Add Geofencing</value>
+    <comment>Add Geofencing</comment>
+  </data>
+  <data name="btn_next" xml:space="preserve">
+    <value>Next</value>
+    <comment>Next</comment>
+  </data>
+  <data name="btn_save_segment" xml:space="preserve">
+    <value>Save Segment</value>
+    <comment>Save Segment</comment>
+  </data>
+  <data name="enm_dwelltime" xml:space="preserve">
+    <value>DwellTime</value>
+    <comment>DwellTime</comment>
+  </data>
+  <data name="enm_frequency" xml:space="preserve">
+    <value>Frequency</value>
+    <comment>Frequency</comment>
+  </data>
+  <data name="lbl_area_in_meter" xml:space="preserve">
+    <value>Area(In Meter)</value>
+    <comment>Area(In Meter)</comment>
+  </data>
+  <data name="lbl_beacon" xml:space="preserve">
+    <value>Beacon</value>
+    <comment>Beacon</comment>
+  </data>
+  <data name="lbl_beacon_provider" xml:space="preserve">
+    <value>Beacon Provider</value>
+    <comment>Beacon Provider</comment>
+  </data>
+  <data name="lbl_broadcast_to_all" xml:space="preserve">
+    <value>Broadcast To All</value>
+    <comment>Broadcast To All</comment>
+  </data>
+  <data name="lbl_campaign_name" xml:space="preserve">
+    <value>Campaign Name</value>
+    <comment>Campaign Name</comment>
+  </data>
+  <data name="lbl_content" xml:space="preserve">
+    <value>Content</value>
+    <comment>Content</comment>
+  </data>
+  <data name="lbl_delivery" xml:space="preserve">
+    <value>Delivery</value>
+    <comment>Delivery</comment>
+  </data>
+  <data name="lbl_end_date" xml:space="preserve">
+    <value>End Date</value>
+    <comment>End Date</comment>
+  </data>
+  <data name="lbl_geofencing" xml:space="preserve">
+    <value>Geofencing</value>
+    <comment>Geofencing</comment>
+  </data>
+  <data name="lbl_major" xml:space="preserve">
+    <value>Major</value>
+    <comment>Major</comment>
+  </data>
+  <data name="lbl_minor" xml:space="preserve">
+    <value>Minor</value>
+    <comment>Minor</comment>
+  </data>
+  <data name="lbl_notification" xml:space="preserve">
+    <value>Notification</value>
+    <comment>Notification</comment>
+  </data>
+  <data name="lbl_notification_message" xml:space="preserve">
+    <value>Notification Message</value>
+    <comment>Notification Message</comment>
+  </data>
+  <data name="lbl_or" xml:space="preserve">
+    <value>Or</value>
+    <comment>Or</comment>
+  </data>
+  <data name="lbl_place_name" xml:space="preserve">
+    <value>Description</value>
+    <comment>Description</comment>
+  </data>
+  <data name="lbl_predefined_segments" xml:space="preserve">
+    <value>Predefined segments</value>
+    <comment>Predefined segments</comment>
+  </data>
+  <data name="lbl_range" xml:space="preserve">
+    <value>Range</value>
+    <comment>Range</comment>
+  </data>
+  <data name="lbl_rules" xml:space="preserve">
+    <value>Notification Rules</value>
+    <comment>Notification Rules</comment>
+  </data>
+  <data name="lbl_schedule_later" xml:space="preserve">
+    <value>Schedule Later</value>
+    <comment>Schedule Later</comment>
+  </data>
+  <data name="lbl_segments" xml:space="preserve">
+    <value>Segments</value>
+    <comment>Segments</comment>
+  </data>
+  <data name="lbl_send_now" xml:space="preserve">
+    <value>Send Now</value>
+    <comment>Send Now</comment>
+  </data>
+  <data name="lbl_start_date" xml:space="preserve">
+    <value>Start Date</value>
+    <comment>Start Date</comment>
+  </data>
+  <data name="lbl_targeting" xml:space="preserve">
+    <value>Targeting</value>
+    <comment>Targeting</comment>
+  </data>
+  <data name="lbl_template" xml:space="preserve">
+    <value>Template</value>
+    <comment>Template</comment>
+  </data>
+  <data name="lbl_template_field" xml:space="preserve">
+    <value>Template Field</value>
+    <comment>Template Field</comment>
+  </data>
+  <data name="lbl_template_selection" xml:space="preserve">
+    <value>Template Selection</value>
+    <comment>Template Selection</comment>
+  </data>
+  <data name="lbl_UUID" xml:space="preserve">
+    <value>UUID</value>
+    <comment>UUID</comment>
+  </data>
+  <data name="msg_email_address_already_exists" xml:space="preserve">
+    <value>Email Address Already Exists</value>
+    <comment>Email Address Already Exists</comment>
+  </data>
+  <data name="msg_please_enter_title" xml:space="preserve">
+    <value>Please enter title</value>
+    <comment>Please enter title</comment>
+  </data>
+  <data name="msg_please_select_segments" xml:space="preserve">
+    <value>Please select at least one targeting</value>
+    <comment>Please select segments</comment>
+  </data>
+  <data name="msg_segments_save_successfully" xml:space="preserve">
+    <value>Current segments saved successfully</value>
+    <comment>Segments saved successfully</comment>
+  </data>
+  <data name="hdtext_beacon" xml:space="preserve">
+    <value>Beacon</value>
+    <comment>Beacon</comment>
+  </data>
+  <data name="hdtext_branch" xml:space="preserve">
+    <value>Location</value>
+    <comment>Branch</comment>
+  </data>
+  <data name="hdtext_branding" xml:space="preserve">
+    <value>Branding</value>
+    <comment>Branding</comment>
+  </data>
+  <data name="hdtext_campaign" xml:space="preserve">
+    <value>Campaign</value>
+    <comment>Campaign</comment>
+  </data>
+  <data name="hdtext_dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+    <comment>Dashboard</comment>
+  </data>
+  <data name="hdtext_geofencing" xml:space="preserve">
+    <value>Geofencing</value>
+    <comment>Geofencing</comment>
+  </data>
+  <data name="hdtext_my_profile" xml:space="preserve">
+    <value>My Profile</value>
+    <comment>My Profile</comment>
+  </data>
+  <data name="hdtext_store_map" xml:space="preserve">
+    <value>Location Map</value>
+    <comment>Store Map</comment>
+  </data>
+  <data name="hdtext_user" xml:space="preserve">
+    <value>User</value>
+    <comment>User</comment>
+  </data>
+  <data name="lbl_radius_meter" xml:space="preserve">
+    <value>Radius (Meter)</value>
+    <comment>Radius (Meter)</comment>
+  </data>
+  <data name="msg_are_you_sure_active" xml:space="preserve">
+    <value>Are you sure you want to active this user?</value>
+    <comment>Are you sure you want to active this user?</comment>
+  </data>
+  <data name="msg_are_you_sure_delete" xml:space="preserve">
+    <value>Are you sure you want to delete this user?</value>
+    <comment>Are you sure you want to delete this user?</comment>
+  </data>
+  <data name="msg_are_you_sure_inactive" xml:space="preserve">
+    <value>Are you sure you want to inactive this user?</value>
+    <comment>Are you sure you want to inactive this user?</comment>
+  </data>
+  <data name="msg_please_enter_branch_name" xml:space="preserve">
+    <value>Please enter location name</value>
+    <comment>Please enter location name</comment>
+  </data>
+  <data name="msg_title_user" xml:space="preserve">
+    <value>User</value>
+    <comment>User</comment>
+  </data>
+  <data name="msg_user_activated_successfully" xml:space="preserve">
+    <value>User activated successfully</value>
+    <comment>User activated successfully</comment>
+  </data>
+  <data name="msg_user_deleted_successfully" xml:space="preserve">
+    <value>User deleted successfully</value>
+    <comment>User deleted successfully</comment>
+  </data>
+  <data name="msg_user_inactivated_successfully" xml:space="preserve">
+    <value>User inactivated successfully</value>
+    <comment>User inactivated successfully</comment>
+  </data>
+  <data name="msg_are_you_sure_active_branch" xml:space="preserve">
+    <value>Are you sure you want to active this location?</value>
+    <comment>Are you sure you want to active this branch?</comment>
+  </data>
+  <data name="msg_are_you_sure_delete_branch" xml:space="preserve">
+    <value>Are you sure you want to delete this location?</value>
+    <comment>Are you sure you want to delete this branch?</comment>
+  </data>
+  <data name="msg_are_you_sure_inactive_branch" xml:space="preserve">
+    <value>Are you sure you want to inactive this location?</value>
+    <comment>Are you sure you want to inactive this branch?</comment>
+  </data>
+  <data name="msg_branch_activated_successfully" xml:space="preserve">
+    <value>Location activated successfully</value>
+    <comment>Branch activated successfully</comment>
+  </data>
+  <data name="msg_branch_deleted_successfully" xml:space="preserve">
+    <value>Location deleted successfully</value>
+    <comment>Branch deleted successfully</comment>
+  </data>
+  <data name="msg_branch_inactivated_successfully" xml:space="preserve">
+    <value>Location inactivated successfully</value>
+    <comment>Branch inactivated successfully</comment>
+  </data>
+  <data name="msg_title_branch" xml:space="preserve">
+    <value>Location</value>
+    <comment>Branch</comment>
+  </data>
+  <data name="ddl_branch" xml:space="preserve">
+    <value>Location</value>
+    <comment>Branch</comment>
+  </data>
+  <data name="msg_campaign_deleted_successfully" xml:space="preserve">
+    <value>Campaign deleted successfully</value>
+    <comment>Campaign deleted successfully</comment>
+  </data>
+  <data name="msg_campaign_name_already_exists" xml:space="preserve">
+    <value>Campaign name already exists</value>
+    <comment>Campaign name already exists</comment>
+  </data>
+  <data name="msg_error_occured_while_deleting" xml:space="preserve">
+    <value>Error occured while deleting Campaign</value>
+    <comment>Error occured while deleting Campaign</comment>
+  </data>
+  <data name="msg_please_select_branch" xml:space="preserve">
+    <value>Please select location</value>
+    <comment>Please select branch</comment>
+  </data>
+  <data name="men_cafe_menu" xml:space="preserve">
+    <value>Cafe Menu</value>
+    <comment>Cafe Menu</comment>
+  </data>
+  <data name="btn_add_menu" xml:space="preserve">
+    <value>Add Menu</value>
+    <comment>Add Menu</comment>
+  </data>
+  <data name="hdtext_cafe_menu" xml:space="preserve">
+    <value>Cafe Menu</value>
+    <comment>Cafe Menu</comment>
+  </data>
+  <data name="lbl_pdf" xml:space="preserve">
+    <value>PDF</value>
+    <comment>PDF</comment>
+  </data>
+  <data name="lbl_upload_menu" xml:space="preserve">
+    <value>Upload Menu (in PDF only)</value>
+    <comment>Upload Menu (in PDF only)</comment>
+  </data>
+  <data name="msg_pdf_only" xml:space="preserve">
+    <value>Please select pdf file only</value>
+    <comment>Please select pdf file only</comment>
+  </data>
+  <data name="msg_locationmap_deleted_successfully" xml:space="preserve">
+    <value>Location map deleted successfully</value>
+    <comment>Location map deleted successfully</comment>
+  </data>
+  <data name="msg_are_you_sure_delete_locationmap" xml:space="preserve">
+    <value>Are you sure you want to delete this location map?</value>
+    <comment>Are you sure you want to delete this location map?</comment>
+  </data>
+  <data name="hdtext_Analytic" xml:space="preserve">
+    <value>Analytics</value>
+    <comment>Analytics</comment>
+  </data>
+  <data name="hdtext_HeatMap" xml:space="preserve">
+    <value>HeatMap</value>
+    <comment>HeatMap</comment>
+  </data>
+  <data name="hdtext_Content_Management" xml:space="preserve">
+    <value>Content Management</value>
+    <comment>Content Management</comment>
+  </data>
+  <data name="lbl_ContentType" xml:space="preserve">
+    <value>Type</value>
+    <comment>Type</comment>
+  </data>
+  <data name="lbl_Key" xml:space="preserve">
+    <value>Key</value>
+    <comment>Key</comment>
+  </data>
+  <data name="men_Content_Management" xml:space="preserve">
+    <value>Content Management</value>
+    <comment>Content Management</comment>
+  </data>
+  <data name="btn_delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="lbl_CMS_Image" xml:space="preserve">
+    <value>Upload Content File (Images, PDFs, Videos etc…)</value>
+    <comment>Upload Content File (Images, PDFs, Videos etc…)</comment>
+  </data>
+  <data name="msg_ContentManagement_Key_Delete" xml:space="preserve">
+    <value>Content deleted successfully</value>
+    <comment>Content deleted successfully</comment>
+  </data>
+  <data name="msg_ContentManagement_Key_Exists" xml:space="preserve">
+    <value>Key already exists.</value>
+    <comment>Key already exists.</comment>
+  </data>
+  <data name="lbl_add_user_uetails" xml:space="preserve">
+    <value>Add User</value>
+    <comment>Add User</comment>
+  </data>
+  <data name="msg_ContentManagement_File_Size" xml:space="preserve">
+    <value>The file size can not exceed 2MB.</value>
+    <comment>The file size can not exceed 2MB.</comment>
+  </data>
+  <data name="msg_CafeMenu_File_Size" xml:space="preserve">
+    <value>The file size can not exceed 4 MB.</value>
+    <comment>The file size can not exceed 4 MB.</comment>
+  </data>
+  <data name="msg_please_select_predefined_segments" xml:space="preserve">
+    <value>Please select current segment</value>
+    <comment>Please select current segment</comment>
+  </data>
+  <data name="btn_add_Content" xml:space="preserve">
+    <value>Add Content</value>
+    <comment>Add Content</comment>
+  </data>
+  <data name="msg_HeatMap_DataNotFound" xml:space="preserve">
+    <value>Heatmap data not found.</value>
+    <comment>Heatmap data not found.</comment>
+  </data>
+  <data name="msg_locationmap_Width_validation" xml:space="preserve">
+    <value>Length must be greater than width.</value>
+    <comment>Length must be greater than width.</comment>
+  </data>
+  <data name="lbl_hoteling_area" xml:space="preserve">
+    <value>Hotelling Area</value>
+    <comment>Hotelling Area</comment>
+  </data>
+  <data name="download_menu_pdf" xml:space="preserve">
+    <value>Download Cafe Menu PDF</value>
+    <comment>Download Cafe Menu PDF</comment>
+  </data>
+  <data name="lbl_analytics" xml:space="preserve">
+    <value>Analytics</value>
+    <comment>Analytics</comment>
+  </data>
+  <data name="lbl_note" xml:space="preserve">
+    <value>Note</value>
+    <comment>Note</comment>
+  </data>
+  <data name="lbl_plz_upload_pot_img" xml:space="preserve">
+    <value>Please upload portrait image.</value>
+    <comment>Please upload portrait image.</comment>
+  </data>
+  <data name="hed_Total_Average_Session_Time_Spent_Per_Beacon" xml:space="preserve">
+    <value>Total Average Session Time Spent Per Beacon</value>
+    <comment>Total Average Session Time Spent Per Beacon</comment>
+  </data>
+  <data name="lbl_Average_Time_Spent" xml:space="preserve">
+    <value>Average Time Spent (Minute)</value>
+    <comment>Average Time Spent (Minute)</comment>
+  </data>
+  <data name="lbl_Campaigns_Triggered" xml:space="preserve">
+    <value>Campaigns Triggered</value>
+    <comment>Campaigns Triggered</comment>
+  </data>
+  <data name="lbl_EndDate" xml:space="preserve">
+    <value>End Date</value>
+    <comment>End Date</comment>
+  </data>
+  <data name="lbl_Go_To_Analytics" xml:space="preserve">
+    <value>Go to Analytics</value>
+    <comment>Go to Analytics</comment>
+  </data>
+  <data name="lbl_Intensity" xml:space="preserve">
+    <value>Intensity</value>
+    <comment>Intensity</comment>
+  </data>
+  <data name="lbl_Location" xml:space="preserve">
+    <value>Location</value>
+    <comment>Location</comment>
+  </data>
+  <data name="lbl_Search" xml:space="preserve">
+    <value>Search</value>
+    <comment>Search</comment>
+  </data>
+  <data name="lbl_Select_Location" xml:space="preserve">
+    <value>Select Location</value>
+    <comment>Select Location</comment>
+  </data>
+  <data name="lbl_Sesstion_Time" xml:space="preserve">
+    <value>Session Time (Minute)</value>
+    <comment>Session Time (Minute)</comment>
+  </data>
+  <data name="lbl_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+    <comment>Start Date</comment>
+  </data>
+  <data name="lbl_Total_Campaigns_Triggered_Per_Beacon" xml:space="preserve">
+    <value>Total Campaigns Triggered Per Beacon</value>
+    <comment>Total Campaigns Triggered Per Beacon</comment>
+  </data>
+  <data name="lbl_Total_Unique_User_Seen_In_Beacon" xml:space="preserve">
+    <value>Total Unique User Seen In Beacon</value>
+    <comment>Total Unique User Seen In Beacon</comment>
+  </data>
+  <data name="lbl_Total_Unique_Visitors" xml:space="preserve">
+    <value>Total Unique Visitors</value>
+    <comment>Total Unique Visitors</comment>
+  </data>
+  <data name="lbl_Total_User" xml:space="preserve">
+    <value>Total User</value>
+    <comment>Total User</comment>
+  </data>
+  <data name="lbl_Unique_Visitors_Seen_In_Beacon" xml:space="preserve">
+    <value>Unique Visitors Seen In Beacon</value>
+    <comment>Unique Visitors Seen In Beacon</comment>
+  </data>
+  <data name="lbl_Users" xml:space="preserve">
+    <value>Users</value>
+    <comment>Users</comment>
+  </data>
+  <data name="lbl_ViewHeatMap" xml:space="preserve">
+    <value>View HeatMap</value>
+    <comment>View HeatMap</comment>
+  </data>
+  <data name="msg_Endate_StartDate_Validation" xml:space="preserve">
+    <value>End date should be greater than start date.</value>
+    <comment>End date should be greater than start date.</comment>
+  </data>
+  <data name="lbl_Total_User_Per_Beacon" xml:space="preserve">
+    <value>Total Users Per Day</value>
+    <comment>Total Users Per Day</comment>
+  </data>
+  <data name="lbl_Date" xml:space="preserve">
+    <value>Date</value>
+    <comment>Date</comment>
+  </data>
+  <data name="lbl_save_campaign_settings" xml:space="preserve">
+    <value>Save Campaign</value>
+    <comment>Save Campaign</comment>
+  </data>
+  <data name="lbl_cancel_campaigns" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="lbl_updatepreview" xml:space="preserve">
+    <value>Update Preview</value>
+    <comment>Update Preview</comment>
+  </data>
+  <data name="msg_campaign_data_save" xml:space="preserve">
+    <value>Campaign data save  successfully</value>
+    <comment>Campaign data save  successfully</comment>
+  </data>
+  <data name="lbl_Campaign_Preview" xml:space="preserve">
+    <value>Preview</value>
+    <comment>Preview</comment>
+  </data>
+  <data name="msg_beacon_updated_succesfully" xml:space="preserve">
+    <value>Beacon updated succesfully.</value>
+    <comment>Beacon updated succesfully.</comment>
+  </data>
+  <data name="lbl_manage_campaign" xml:space="preserve">
+    <value>Manage Campaign</value>
+    <comment>Manage Campaign</comment>
+  </data>
+  <data name="lbl_edit_beacon" xml:space="preserve">
+    <value>Edit Beacon</value>
+    <comment>Edit Beacon</comment>
+  </data>
+  <data name="lbl_rearrange_beacon" xml:space="preserve">
+    <value>Rearrange Beacon</value>
+    <comment>Rearrange Beacon</comment>
+  </data>
+  <data name="lbl_remove_beacon" xml:space="preserve">
+    <value>Remove Beacon</value>
+    <comment>Remove Beacon</comment>
+  </data>
+  <data name="msg_are_you_sure_you_want_to_delete_beacon" xml:space="preserve">
+    <value>Are you sure you want to delete this beacon?</value>
+    <comment>Are you sure you want to delete this beacon?</comment>
+  </data>
+  <data name="msg_company_setting_successfully" xml:space="preserve">
+    <value>Setting save successfully</value>
+    <comment>Setting save successfully</comment>
+  </data>
+  <data name="lbl_campaign_not_found" xml:space="preserve">
+    <value>Campaign not found</value>
+    <comment>Campaign not found</comment>
+  </data>
+  <data name="btn_add_Template" xml:space="preserve">
+    <value>Add Template</value>
+    <comment>Add Template</comment>
+  </data>
+  <data name="lblSettings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="lblTemplate" xml:space="preserve">
+    <value>Template</value>
+    <comment>Template</comment>
+  </data>
+  <data name="lbl_IsActive" xml:space="preserve">
+    <value>Is Active ?</value>
+    <comment>Is Active ?</comment>
+  </data>
+  <data name="lbl_TemplateType" xml:space="preserve">
+    <value>Template Type</value>
+    <comment>Template Type</comment>
+  </data>
+  <data name="lbl_TagName" xml:space="preserve">
+    <value>Tags</value>
+    <comment>Tags</comment>
+  </data>
+  <data name="msg_enter_tag" xml:space="preserve">
+    <value>Enter Tags..</value>
+    <comment>Enter Tags..</comment>
+  </data>
+  <data name="msg_please_enter_valid_url" xml:space="preserve">
+    <value>Please enter valid url.</value>
+    <comment>Please enter valid url.</comment>
+  </data>
+</root>
